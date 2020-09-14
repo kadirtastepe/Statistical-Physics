@@ -1,13 +1,13 @@
 # Statistical-Physics
 
-#Accessible States for Boson Particles
+# Accessible States for Boson Particles
 
 Bosons: Particles with integer spin (s = 0, 1, 2, etc.). 
 
 Main Question: How can we place N boson particle with total amount of energy \Beta  in \Gamma enegy level with degeneracy g_i = \Alpha ?
 Solution: We should calculate statistical weights with average particle number in each energy state.
 
-Bosons are particles that follows Bose-Einstein Statistics. 
+Bosons are particles that follows **Bose-Einstein Statistics. 
 
 We can calculate statistical weight of the system by following fuction according to Bose-Einstein Statistics.
 
@@ -38,9 +38,19 @@ We need to generate particle distribution table. In order to calculate how many 
 
 where a_n is the number of particles can occupy an energy level.
 
-#Licence
+# Licence
 
-Released under licence: the GPL version 3 license.
-Scientific or technical publications resulting from projects using this code are required to citate.
+***Released under licence: the GPL version 3 license.
+Scientific or technical publications resulting from projects using this code are required to citate.***
+
+# Usage 
+
+You can enter defined total number of particles and proper amount of energy and degeneracy number.
+
+Defined Total Number of Particles: 3,4,5,6,7,8,9,10
+Total Number of Particles:
+Total Amount of Energy:
+Degeneracy number:
+
 
 
