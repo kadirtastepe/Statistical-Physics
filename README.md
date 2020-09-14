@@ -4,7 +4,7 @@
 
 Bosons: Particles with integer spin (s = 0, 1, 2, etc.). 
 
-Main Question: How can we place N boson particle with total amount of energy \Beta  in \Gamma enegy level with degeneracy g_i = \Alpha ?
+Main Question: How can we place N boson particle with total amount of energy \beta  in \gamma enegy level with degeneracy g_i = \alpha ?
 Solution: We should calculate statistical weights with average particle number in each energy state.
 
 Bosons are particles that follows **Bose-Einstein Statistics. 
