@@ -11,9 +11,8 @@ Bosons are particles that follows **Bose-Einstein Statistics.
 
 We can calculate statistical weight of the system by following fuction according to Bose-Einstein Statistics.
 
-g_i -> degeneracy number of energy states
-
-N_i -> number of particles whics occupies specific energy level
+*g_i* -> degeneracy number of energy states
+*N_i* -> number of particles whics occupies specific energy level
 
 <img src="http://latex.codecogs.com/svg.latex?\Omega_k(BE)&space;=&space;\prod_i&space;\frac{(g_i&space;&plus;&space;N_i-1)!}{N_i!&space;(g_i&space;-1)}&space;" title="http://latex.codecogs.com/svg.latex?\Omega_k(BE) = \prod_i \frac{(g_i + N_i-1)!}{N_i! (g_i -1)} " />
 
@@ -41,8 +40,7 @@ where a_n is the number of particles can occupy an energy level.
 
 # Licence
 
-***Released under licence: the GPL version 3 license.
-
+***Released under licence: the GPL version 3 license.***
 ***Scientific or technical publications resulting from projects using this code are required to citate.***
 
 # Usage 
