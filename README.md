@@ -42,6 +42,8 @@ We need to generate particle distribution table. In order to calculate how many 
 
 ***Released under licence: the GPL version 3 license.***
 
+***Using without reference is, among other things, against the current license agreement (GPL).***
+
 ***Scientific or technical publications resulting from projects using this code are required to citate.***
 
 # Usage 
