@@ -40,6 +40,7 @@ We need to generate particle distribution table. In order to calculate how many 
 # Licence
 
 ***Released under licence: the GPL version 3 license.***
+
 ***Scientific or technical publications resulting from projects using this code are required to citate.***
 
 # Usage 
@@ -47,8 +48,11 @@ We need to generate particle distribution table. In order to calculate how many 
 You can enter defined total number of particles and proper amount of energy and degeneracy number.
 
 Defined Total Number of Particles: 3,4,5,6,7,8,9,10
+
 Total Number of Particles:
+
 Total Amount of Energy:
+
 Degeneracy number:
 
 
