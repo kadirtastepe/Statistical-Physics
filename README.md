@@ -11,8 +11,9 @@ Bosons are particles that follows **Bose-Einstein Statistics.
 
 We can calculate statistical weight of the system by following fuction according to Bose-Einstein Statistics.
 
-*g_i* -> degeneracy number of energy states
-*N_i* -> number of particles whics occupies specific energy level
+**g_i** -> degeneracy number of energy states
+
+**N_i** -> number of particles whics occupies specific energy level
 
 <img src="http://latex.codecogs.com/svg.latex?\Omega_k(BE)&space;=&space;\prod_i&space;\frac{(g_i&space;&plus;&space;N_i-1)!}{N_i!&space;(g_i&space;-1)}&space;" title="http://latex.codecogs.com/svg.latex?\Omega_k(BE) = \prod_i \frac{(g_i + N_i-1)!}{N_i! (g_i -1)} " />
 
@@ -34,9 +35,7 @@ We can calculate statistical weight of the system by following fuction according
 We need to generate particle distribution table. In order to calculate how many bosons occupy whics energy level, I have used some basic mathematical tricks.
 
 1) Total number of particles in a row must be equal to total number of particles that we have entered.
-2) <img src="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N}&space;a_n(n-1)&space;=\sum_{i=1}^{N}&space;a_n&space;=&space;E_{Total},&space;a_n&space;\in&space;\mathbb{N}" title="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N} a_n(n-1) =\sum_{i=1}^{N} a_n = E_{Total}, a_n \in \mathbb{N}" />
-
-where a_n is the number of particles can occupy an energy level.
+2) <img src="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N}&space;a_n(n-1)&space;=\sum_{i=1}^{N}&space;a_n&space;=&space;E_{Total},&space;a_n&space;\in&space;\mathbb{N}" title="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N} a_n(n-1) =\sum_{i=1}^{N} a_n = E_{Total}, a_n \in \mathbb{N}" /> where a_n is the number of particles can occupy an energy level.
 
 # Licence
 
