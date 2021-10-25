@@ -1,11 +1,3 @@
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-
-# Statistical-Physics
-
 # Accessible States for Boson Particles
 
 Bosons: Particles with integer spin (s = 0, 1, 2, etc.). 
@@ -20,7 +12,7 @@ We can calculate statistical weight of the system by following fuction according
 
 **g_i** -> degeneracy number of energy states
 
-**N_i** -> number of particles whics occupies specific energy level
+**N_i** -> number of particles occupies certain energy levels
 
 <img src="http://latex.codecogs.com/svg.latex?\Omega_k(BE)&space;=&space;\prod_i&space;\frac{(g_i&space;&plus;&space;N_i-1)!}{N_i!&space;(g_i&space;-1)}&space;" title="http://latex.codecogs.com/svg.latex?\Omega_k(BE) = \prod_i \frac{(g_i + N_i-1)!}{N_i! (g_i -1)} " />
 
@@ -38,12 +30,13 @@ And we can also compare this system with Maxwell-Boltzmann Statistics. Bosons fo
 We can calculate statistical weight of the system by following fuction according to Maxwell-Boltzmann Statistics.
 
 
- \htmlStyle{color: red;}{<img src="https://latex.codecogs.com/svg.image?\Omega_k(MB)&space;=&space;N!&space;\prod_i&space;\frac{g_i^{N_i}}{N_i!}" title="\Omega_k(MB) = N! \prod_i \frac{g_i^{N_i}}{N_i!}" /> }
+<img src="https://latex.codecogs.com/svg.image?\Omega_k(MB)&space;=&space;N!&space;\prod_i&space;\frac{g_i^{N_i}}{N_i!}" title="\Omega_k(MB) = N! \prod_i \frac{g_i^{N_i}}{N_i!}" /> 
 
 
 We need to generate particle distribution table. In order to calculate how many bosons occupy whics energy level, I have used some basic mathematical tricks.
 
 1) Total number of particles in a row must be equal to total number of particles that we have entered.
+
 2) <img src="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N}&space;a_n(n-1)&space;=\sum_{i=1}^{N}&space;a_n&space;=&space;E_{Total},&space;a_n&space;\in&space;\mathbb{N}" title="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N} a_n(n-1) =\sum_{i=1}^{N} a_n = E_{Total}, a_n \in \mathbb{N}" /> where a_n is the number of particles can occupy an energy level.
 
 # Licence
@@ -66,52 +59,3 @@ Total Amount of Energy:
 
 Degeneracy number:
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kadirtastepe/Statistical-Physics/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kadirtastepe/Statistical-Physics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
