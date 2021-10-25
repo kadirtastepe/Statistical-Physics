@@ -1,10 +1,10 @@
 # Accessible States for Boson Particles
 
-Bosons: Particles with integer spin (s = 0, 1, 2, etc.). 
+**Bosons:** Particles with integer spin (s = 0, 1, 2, etc.). 
 
-Main Question: How can we place N boson particle with total amount of energy β in γ enegy level with degeneracy g_i = α ?
+**Main Question:** How can we place N boson particle with total amount of energy β in γ energy level with degeneracy g_i = α ?
 
-Solution: We should calculate statistical weights with average particle number in each energy state.
+**Solution:** We should calculate statistical weights with average particle number in each energy state.
 
 Bosons are particles that follows **Bose-Einstein Statistics. 
 
