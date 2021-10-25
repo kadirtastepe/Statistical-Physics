@@ -37,7 +37,7 @@ We need to generate particle distribution table. In order to calculate how many 
 
 1) Total number of particles in a row must be equal to total number of particles that we have entered.
 
-2) <img src="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N}&space;a_n(n-1)&space;=\sum_{i=1}^{N}&space;a_n&space;=&space;E_{Total},&space;a_n&space;\in&space;\mathbb{N}" title="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N} a_n(n-1) =\sum_{i=1}^{N} a_n = E_{Total}, a_n \in \mathbb{N}" /> where a_n is the number of particles can occupy an energy level.
+2) <img src="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N}&space;a_n(n-1)&space;=\sum_{i=1}^{N}&space;a_n&space;=&space;E_{Total},&space;a_n&space;\in&space;\mathbb{N}" title="http://latex.codecogs.com/svg.latex?\sum_{i=1}^{N} a_n(n-1) =\sum_{i=1}^{N} a_n = E_{Total}" />, <img src="https://latex.codecogs.com/svg.image?a_n&space;\in&space;\mathbb{N}" title="a_n \in \mathbb{N}" /> where <img src="https://latex.codecogs.com/svg.image?a_n" title="a_n" /> is the number of particles can occupy an energy level.
 
 # Licence
 
