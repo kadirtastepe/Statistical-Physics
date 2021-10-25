@@ -38,7 +38,7 @@ And we can also compare this system with Maxwell-Boltzmann Statistics. Bosons fo
 We can calculate statistical weight of the system by following fuction according to Maxwell-Boltzmann Statistics.
 
 
-  $$\Omega_k(MB) = N! \prod_i \frac{{g_i}^{N_i}}{N_i!}$$ --> note that all equations between these tags will not need escaping! 
+ \htmlStyle{color: red;}{ \Omega_k(MB) = N! \prod_i \frac{{g_i}^{N_i}}{N_i!} --> note that all equations between these tags will not need escaping! }
 
 
 We need to generate particle distribution table. In order to calculate how many bosons occupy whics energy level, I have used some basic mathematical tricks.
