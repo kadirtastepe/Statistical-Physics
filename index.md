@@ -1,4 +1,8 @@
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
 
 # Statistical-Physics
 
@@ -33,9 +37,8 @@ And we can also compare this system with Maxwell-Boltzmann Statistics. Bosons fo
 
 We can calculate statistical weight of the system by following fuction according to Maxwell-Boltzmann Statistics.
 
- {% raw %}
+
   $$\Omega_k(MB) = N! \prod_i \frac{{g_i}^{N_i}}{N_i!}$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
 
 
 We need to generate particle distribution table. In order to calculate how many bosons occupy whics energy level, I have used some basic mathematical tricks.
