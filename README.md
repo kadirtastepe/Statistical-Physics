@@ -42,6 +42,7 @@ We need to generate particle distribution table. In order to calculate how many 
   <li>Code</li>
   </a>
 
+[code link](https://raw.githubusercontent.com/kadirtastepe/Statistical-Physics/master/BEParticles.cc)
 
 
 # Licence
